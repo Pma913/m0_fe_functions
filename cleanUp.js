@@ -19,11 +19,11 @@ nameQuestion();
 
 // // EX 2:
 // // I added indent beginning line 24 25. Add ";" end of line 24. 
-// // All changes for good practice, code runs without them. Moved bottom bracket back two tabs.
+// // All changes for good practice, code runs without them. Moved bottom bracket back three tabs.
 function addThreeNums(first, second, third) {
-  var sum = first + second + third
+  var sum = first + second + third;
   console.log(sum);
-  }
+}
 
 addThreeNums(1, 2, 3);
 addThreeNums(4, 2, 7);
@@ -50,7 +50,7 @@ function average(num1, num2) {
   var sum = num1 + num2;
   var avg = sum / 2;
   console.log(`the average is: ${avg}`);
-  }
+}
   
 // average(108, 56);
 // ^^ added line of code to confirm desired output^^
